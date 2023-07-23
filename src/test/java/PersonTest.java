@@ -7,11 +7,12 @@ public class PersonTest {
     @DataProvider(name = "ageDataProvider")
     Object[][] ageDataProvider() {
         return new Object[][]{
+                {12, false},
                 {13, true},
                 {14, true},
-                {15, false},
+                {15, true},
                 {16, true},
-                {17, false},
+                {17, true},
                 {18, true},
                 {19, true},
         };
